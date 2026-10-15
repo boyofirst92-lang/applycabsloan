@@ -1,0 +1,9 @@
+services:
+  - type: static_site
+    name: applycabsloan
+    env: static
+    repo: https://github.com/boyofirst92-lang/applycabsloan
+    branch: main
+    buildCommand: npm run build
+    publishPath: dist
+    plan: free
